@@ -35,7 +35,7 @@ Assembly required.
 
 The only thing its missing is controlled steering. But this can either be resolved with a suitable integrated servo motor, or at worst, the car can be driven in reverse in skid-steering mode with the turnable wheels acting as passive back wheels. Either way there is plenty room to fit cameras, compute devices, other sensors, and even incorporate a second battery for longer run times, it even has speakers for music. 
 
-![It even runs with me on, and I'm slightly heavier than 25kg]({% link assets/images/projects/me-on-new-roboto.png %})
+![It even runs with me on, and I'm slightly heavier than 25kg]({% link assets/images/projects/me-on-new-roboto.jpg %})
 
 
 Next Steps:
