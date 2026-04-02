@@ -1,1 +1,21 @@
+title: Andy Roberts
+description: Research, publications and personal projects
+url: https://andymroberts.github.io
+# baseurl is empty for username.github.io user sites
+
 theme: jekyll-theme-architect
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
