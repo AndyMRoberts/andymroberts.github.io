@@ -3,7 +3,7 @@ title: Papers
 permalink: /papers/
 ---
 
-<p><a href="{{ '/' | relative_url }}">Home</a> · <a href="{{ '/projects/' | relative_url }}">Projects</a> · <a href="{{ '/papers/' | relative_url }}">Papers</a></p>
+{% include site-nav.html %}
 
 ### Embedded Computing for Environmental Sensing and Mapping in Agricultural Robots: A Power and Performance Analysis
 
@@ -42,4 +42,4 @@ a more accurate and power-efficient SLAM for longer operation time in
 the field.
 
 Links:
-[PDF copy]({{ '/assets/paper1.pdf' | relative_url }}) · [IEEE Xplore](https://ieeexplore.ieee.org/document/11105118)
+[PDF copy]({% link assets/paper1.pdf %}) · [IEEE Xplore](https://ieeexplore.ieee.org/document/11105118)

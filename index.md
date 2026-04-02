@@ -2,9 +2,9 @@
 title: Home
 ---
 
-<p><a href="{{ '/' | relative_url }}">Home</a> · <a href="{{ '/projects/' | relative_url }}">Projects</a> · <a href="{{ '/papers/' | relative_url }}">Papers</a></p>
+{% include site-nav.html %}
 
-![Little Robot in the Wild]({{ '/assets/images/bar_robot.png' | relative_url }})
+![Little Robot in the Wild]({% link assets/images/bar_robot.png %})
 
 # Welcome
 
@@ -15,4 +15,4 @@ automation; incorporating expertise in Python, C++, ROS, Labview/Teststand and S
 
 I love puzzles, logical problems and thinking creatively, which is why I've found myself suited so well to a career in a highly applied field of computer science research. Its allows me to explore my natural curiosity over a wide range of topics and hopefully help humanity as a whole.
 
-![me]({{ '/assets/images/yellow_me.jpg' | relative_url }})
+![me]({% link assets/images/yellow_me.jpg %})
